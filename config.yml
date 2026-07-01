@@ -80,19 +80,7 @@ params:
     general_chair: ["Joon-Seok Kim (Emory University)", "Taylor Anderson (George Mason University)", "Hao Xu (Hong Kong University of Science and Technology)"]
     pc_chair: ["Andreas Züfle (Emory University)", "Su Yeon Han (Texas State University)"]
     pc_member: [ 
-    "Hannah Bast (University of Freiburg, Germany)",
-    "Raymond Chi-Wing Wong (Hong Kong University of Science and Technology, Hong Kong)",
-    "Michael Desjardins (Johns Hopkins Bloomberg School of Public Health)",
-    "Eric Delmelle (Lehigh University, USA)",
-    "Zipei Fan (The University of Tokyo, Japan)",
-    "Philippe Giabbanelli (Old Dominion University, USA)",
-    "Swapna Gokhale (University of Connecticut, USA)",
-    "Dimitris Gunopulos (National and Kapodistrian University of Athens, Greece)",
-    "Peng Jia (University of Twente, Netherlands)",
-    "Liang Mao (University of Florida, USA)",
-    "Flora Salim (UNSW, Australia)",
-    "Paul Torrens (New York University, USA)",
-    "Yiqun Xie (University of Maryland, USA)"]
+    "TBD"]
     webchair: ["Hossein Amiri (Emory University)"]
 
     
