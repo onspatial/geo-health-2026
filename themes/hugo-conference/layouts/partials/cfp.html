@@ -1,0 +1,25 @@
+<h2 class="section-title">{{ .titles.cfp }} </h2>
+
+<p itemprop="description">{{ .cfp.text }} </p>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-r3w3{border-color:#ffffff;font-family:"Courier New", Courier, monospace !important;;font-weight:bold;text-align:left;
+  vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  
+</thead>
+<tbody>
+  {{ range $keyword_index, $keyword := .cfp.keywords }}
+  <td class="tg-r3w3">{{ $keyword }}</td>
+  <!-- Control the number of columns per row -->
+    {{ if  eq (mod $keyword_index 2) 1 }}<tr></tr>{{ end }}
+  {{ end }}
+</tbody>
+</table>

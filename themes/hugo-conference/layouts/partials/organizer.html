@@ -1,0 +1,57 @@
+<h2 class="section-title">{{ .titles.organizer }}</h2>
+
+<h5>General Chair</h5>
+
+<table class="tg">
+<thead>
+</thead>
+<tbody>
+  {{ range $pc_chair_index, $pc_chair := .organizer.general_chair }}
+  <td class="tg-r3w3">{{ $pc_chair }}</td>
+  <!-- Control the number of columns per row -->
+    {{ if  eq (mod $pc_chair_index 2) 1 }}<tr></tr>{{ end }}
+  {{ end }}
+</tbody>
+</table>
+
+<h5>Program Chairs</h5>
+
+<table class="tg">
+<thead>
+</thead>
+<tbody>
+  {{ range $pc_chair_index, $pc_chair := .organizer.pc_chair }}
+  <td class="tg-r3w3">{{ $pc_chair }}</td>
+  <!-- Control the number of columns per row -->
+    {{ if  eq (mod $pc_chair_index 2) 1 }}<tr></tr>{{ end }}
+  {{ end }}
+</tbody>
+</table>
+
+<h5>Program Committee</h5>
+
+<table class="tg">
+<thead>
+</thead>
+<tbody>
+  {{ range $pc_member_index, $pc_member := .organizer.pc_member }}
+  <td class="tg-r3w3">{{ $pc_member }}</td>
+  <!-- Control the number of columns per row -->
+    {{ if  eq (mod $pc_member_index 2) 1 }}<tr></tr>{{ end }}
+  {{ end }}
+</tbody>
+</table>
+
+<h5>Web Chair</h5>
+
+<table class="tg">
+<thead>
+</thead>
+<tbody>
+  {{ range $webchair_index, $webchair := .organizer.webchair }}
+  <td class="tg-r3w3">{{ $webchair }}</td>
+  <!-- Control the number of columns per row -->
+    {{ if  eq (mod $webchair_index 2) 1 }}<tr></tr>{{ end }}
+  {{ end }}
+</tbody>
+</table>

@@ -1,0 +1,140 @@
+baseurl: "https://onspatial.github.io/geo-health-2026/"
+title: "International Workshop on Geospatial Computing for Public Health@ACM SIGSPATIAL 2026"
+canonifyurls: true
+theme: "hugo-conference"
+blackfriday:
+    unsafe: true
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "GeoHealth@ACM SIGSPATIAL 2026"
+  Description: "International Workshop on Geospatial Computing for Public Health@ACM SIGSPATIAL 2026"
+  Date: "Tuesday November 3, 2026"
+  # Price: "Only $100" # If your event is free, just comment this line
+  Venue: " Riverside Convention Center"
+  Address: "3637 5th St"
+  City:  "Riverside, CA"
+  State: "United States"
+  Images: ["/img/logo.jpg"]
+  big_logo: "/images/acmsigspatial-full.png"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - intro
+    - organizer    
+    # - speakers
+    # - schedule    
+    - location
+    - cfp
+    - deadline
+  #  - contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    intro: "About"
+    location: "Location"
+    cfp: "Call For Papers"
+    organizer: "Organization Committee"
+    # speakers: "Speakers"
+    # schedule: "Schedule"
+    deadline: "Important Dates"
+    # sponsors: "Sponsors"
+    # partners: "Partners"
+    # contact: "Instructions for Authors"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  # CallToAction:
+  #   text: "Register now"
+  #   link: ""
+
+  intro:
+    text: "Public health is fundamentally spatial. From tracking the spread of infectious diseases and identifying disparities in healthcare access to modeling the health impacts of climate change, geospatial data and computational methods play a central role in understanding and improving population health. The 2nd ACM SIGSPATIAL International Workshop on Geospatial Computing for Public Health (GeoHealth’26) aims to advance research and practice at this critical intersection by encompassing a broad range of public health challenges, data sources, and analytical approaches. 
+    As health informatics enters a new era, the importance of geospatial data continues to grow. Applications now span infectious disease surveillance and forecasting, chronic disease monitoring, environmental exposure assessment, healthcare accessibility, and the allocation of limited public health resources. These challenges demand scalable, robust, and privacy-aware geospatial solutions capable of integrating heterogeneous and spatiotemporal data.  
+    The SIGSPATIAL community brings decades of expertise in managing, analyzing, and visualizing complex spatial and spatiotemporal data. When combined with emerging public health data sources (e.g., wearable devices, mobile sensors, social media, climate observations, and administrative health records), this expertise uniquely positions the community to make significant contributions to geospatial health informatics and evidence-based public health decision-making"
+
+  cfp:
+    text: "GeoHealth’26 will serve as an interdisciplinary forum for researchers, practitioners, and policymakers working at the nexus of geospatial computing and public health. The workshop welcomes contributions that address spatial and spatiotemporal aspects of health behaviors, outcomes, exposures, systems, and interventions using methods from spatial databases, GIScience, geoinformatics, spatial data mining, machine learning, and computational modeling. We particularly encourage submissions that introduce novel geospatial methodologies, leverage emerging or nontraditional data sources, or present innovative applications with clear implications for public health policy and practice. Both full papers (8–10 pages) and short papers (4 pages) are welcome, provided they have not been previously published and are not under concurrent review. All accepted papers will be published in the ACM Digital Library. At least one author of each accepted paper must register for and attend the workshop in person."
+
+    keywords: ["Geospatial Analytics for Infectious Disease Surveillance",
+              "Environmental Exposure Mapping (e.g., air quality, water, toxins)",
+              "Modeling Health Impacts of Climate Change",
+              "GIS for Health Equity and Access",
+              "Spatial Decision Support Systems for Health Resource Allocation",
+              "Urban Health and Built Environment Analysis",
+              "Chronic Disease Mapping and Risk Factor Modeling",
+              "Human Mobility and Public Health Interventions",
+              "Integration of Remote Sensing and Health Data",
+              "Real-time Outbreak Detection and Monitoring",
+              "Geospatial Artificial Intelligence (GeoAI) in Health",
+              "Privacy-aware Health Data Integration",
+              "Social Determinants of Health and Spatial Inequality ",
+              "Data Fusion from Wearables, EHRs, and Census Data",
+              "Health Communication via Spatial Dashboards and Visualizations",
+              "Spatial Epidemiology and Spatiotemporal Modeling"]
+
+  organizer:
+    general_chair: ["Joon-Seok Kim (Emory University)", "Taylor Anderson (George Mason University)", "Hao Xu (Hong Kong University of Science and Technology)"]
+    pc_chair: ["Andreas Züfle (Emory University)", "Su Yeon Han (Texas State University)"]
+    pc_member: [ 
+    "Hannah Bast (University of Freiburg, Germany)",
+    "Raymond Chi-Wing Wong (Hong Kong University of Science and Technology, Hong Kong)",
+    "Michael Desjardins (Johns Hopkins Bloomberg School of Public Health)",
+    "Eric Delmelle (Lehigh University, USA)",
+    "Zipei Fan (The University of Tokyo, Japan)",
+    "Philippe Giabbanelli (Old Dominion University, USA)",
+    "Swapna Gokhale (University of Connecticut, USA)",
+    "Dimitris Gunopulos (National and Kapodistrian University of Athens, Greece)",
+    "Peng Jia (University of Twente, Netherlands)",
+    "Liang Mao (University of Florida, USA)",
+    "Flora Salim (UNSW, Australia)",
+    "Paul Torrens (New York University, USA)",
+    "Yiqun Xie (University of Maryland, USA)"]
+    webchair: ["Hossein Amiri (Emory University)"]
+
+    
+  deadline:
+    submission: "August 15, 2026"
+    notification: "September 15, 2026"
+    camera: "October 10, 2026"
+    workshopdate: "November 3, 2026"
+    submissionsite: "https://easychair.org/conferences?conf=geohealth26"
+    studentgrant: "To be announced"
+
+    
+    
+  #contact:
+  
+  # speakers:
+  #    - name: "TBD"
+  #      photo: "/images/keynote1.jpg"
+  #      company: "TBD"
+  #      talk: 
+  #        title: "RBD"
+  #        # bio: "TBD"
+  #        bio: "TBD"
+
+       
+  # schedule:
+  #      - title: "TBD"
+  #        time: "8:00-8:05 AM"
+  #        # file: "Frontmatter.pdf"
+  #      - title: "TBD"
+  #        authors: "TBD"
+  #        time: "8:05-8:20 AM"
+  #        file: "paper_1.pdf"
+  #      - title: "TBD"
+  #        authors: "TBD"
+  #        bio: "TBD,"
+  #        time: "8:20-9:05 AM"
+  #      - title: "TBD"
+  #        authors: "TBD"
+  #        time: "9:05-9:20 AM"
+  #        file: "paper_2.pdf"
+  #      - title: "Closing Remarks"
+  #        time: "9:55-10:00 AM"
+         
+            

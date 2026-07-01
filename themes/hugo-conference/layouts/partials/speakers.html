@@ -1,0 +1,29 @@
+<h2 class="section-title">{{ .titles.speakers }}</h2>
+
+<ul class="speakers-list">
+{{ range $speaker := .speakers }}
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    {{ with .photo }}
+      <span class="speaker-photo">
+        <img class="photo" src="{{ . }}" alt="{{ $speaker.name }}" itemprop="image">
+      </span>
+    {{ end }}
+
+    <h3 class="speakers-name">{{ .name }}
+    {{ with $speaker.link.twitter }}
+          <div class="speaker-link">
+              <a href="{{ $speaker.link.twitter }}"><i class="fab fa-twitter-square"></i></a>
+          </div>    
+        {{ end }}
+    </h3>
+    <p></p>
+    <h4 class="speech-title">
+      <span>Keynote:</span>
+      <a href="{{ .talk.href }}" title="{{ .text }}"> {{ .talk.title }} </a>
+      <!-- <p>{{ .talk.abstract }}</p> -->
+    </h4>
+    <p class="speakers-bio">{{ .talk.bio }}</p>    
+  
+  </li>
+{{ end }}
+</ul>

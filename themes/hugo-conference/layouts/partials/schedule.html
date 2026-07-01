@@ -1,0 +1,36 @@
+
+<div class="schedule-tbl">
+<h2 class="section-title">{{ .titles.schedule }}</h2>
+
+<!-- <p><img width="100" src="https://sigspatial2021.sigspatial.org/images/buttons/zoom.png">: <a href="https://gmu.zoom.us/j/91976561174">https://gmu.zoom.us/j/91976561174</a></p>
+
+<p>(1) You must sign in your Zoom account in order to join this meeting. If you use your institution's Zoom account, you might need to choose the "SSO" option when log in.</p>
+
+<p>(2) You will first be put in a waiting room. The organizers then will verify your identity and admit you into the meeting.</p>
+
+<p>(3) To be admitted into the meeting, your Zoom name must be a full name such as Tom Smith (preferably with an affiliation).</p> -->
+
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-time">Timezone: CET</th>
+<!--         <th class="schedule-time">Timezone: CET</th>
+ -->        <th class="schedule-slot">Title</th>
+        <!-- <th class="schedule-description">Abstract</th> -->
+        <th class="schedule-pdf">Paper</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range $slot := .schedule }}
+        <tr class="schedule-other">
+          <td class="schedule-time">{{ .time }}</td>
+          <!-- <td class="schedule-time">{{ .beijing }}</td> -->
+          <td class="schedule-slot">{{ .title }} <br><br>  {{ .authors }}</td>
+          <!-- <td class="schedule-description">{{ .abstract }}</td> -->
+          <td class="schedule-pdf"> {{ if ne .file nil }}
+            <a href="./files/{{ .file }}">PDF</a> {{ end }}</td>
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
