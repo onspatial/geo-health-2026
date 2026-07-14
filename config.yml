@@ -77,10 +77,21 @@ params:
               "Spatial Epidemiology and Spatiotemporal Modeling"]
 
   organizer:
-    general_chair: ["Joon-Seok Kim (Emory University)", "Taylor Anderson (George Mason University)", "Hao Xu (Hong Kong University of Science and Technology)"]
+    general_chair: ["Joon-Seok Kim (Emory University)", "Taylor Anderson (George Mason University)", "Hao Xue (Hong Kong University of Science and Technology (Guangzhou))"]
     pc_chair: ["Andreas Züfle (Emory University)", "Su Yeon Han (Texas State University)"]
     pc_member: [ 
-    "TBD"]
+    "Hunsoo Song (Chungbuk National University)",
+    "Ignacio Segovia-Dominguez (West Virginia University)",
+    "Yao Li (University of North Carolina at Charlotte)",
+    "Di Yang (University of Florida)",
+    "Jeon-Young Kang (Kyung Hee University)",
+    "Alexander Hohl (The University of Utah)",
+    "Youngseob Eum (University of North Carolina at Charlotte)",
+    "Swapna Gokhale (University of Connecticut)",
+    "Samarth Swarup (University of Virginia)",
+    "Liang Mao (University of Florida)",
+    "Yiqun Xie (University of Maryland)",
+    "Hyesop Shin (University of Auckland)"]
     webchair: ["Hossein Amiri (Emory University)"]
 
     
