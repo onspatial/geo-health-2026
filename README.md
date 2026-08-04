@@ -1,4 +1,4 @@
-https://onspatial.github.io/geo-health-2025/
+https://onspatial.github.io/geo-health-2026/
 
 # Use GitHub:
 
