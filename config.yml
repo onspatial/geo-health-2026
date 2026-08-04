@@ -57,7 +57,18 @@ params:
     The SIGSPATIAL community brings decades of expertise in managing, analyzing, and visualizing complex spatial and spatiotemporal data. When combined with emerging public health data sources (e.g., wearable devices, mobile sensors, social media, climate observations, and administrative health records), this expertise uniquely positions the community to make significant contributions to geospatial health informatics and evidence-based public health decision-making"
 
   cfp:
-    text: "GeoHealth’26 will serve as an interdisciplinary forum for researchers, practitioners, and policymakers working at the nexus of geospatial computing and public health. The workshop welcomes contributions that address spatial and spatiotemporal aspects of health behaviors, outcomes, exposures, systems, and interventions using methods from spatial databases, GIScience, geoinformatics, spatial data mining, machine learning, and computational modeling. We particularly encourage submissions that introduce novel geospatial methodologies, leverage emerging or nontraditional data sources, or present innovative applications with clear implications for public health policy and practice. Both full papers (8–10 pages) and short papers (4 pages) are welcome, provided they have not been previously published and are not under concurrent review. All accepted papers will be published in the ACM Digital Library. At least one author of each accepted paper must register for and attend the workshop in person."
+    text: "GeoHealth’26 will serve as an interdisciplinary forum for researchers, practitioners, and policymakers working at the nexus of geospatial computing and public health. The workshop welcomes contributions that address spatial and spatiotemporal aspects of health behaviors,
+    outcomes, exposures, systems, and interventions using methods from spatial databases, GIScience, geoinformatics, spatial data mining, machine learning, and computational modeling. We particularly encourage submissions that introduce novel geospatial methodologies, leverage emerging 
+    or nontraditional data sources, or present innovative applications with clear implications for public health policy and practice. Both full papers (8–10 pages) and short papers (4 pages) are welcome, provided they have not been previously published and are not under concurrent review. 
+    All accepted papers will be published in the ACM Digital Library. At least one author of each accepted paper must register for and attend the workshop in person.
+    <h2>Paper Format</h2>
+<p>
+Manuscripts should be submitted in PDF format and formatted using the ACM camera-ready templates available at <a href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a>. For latex users, please make sure that you choose sigconf type (e.g., \documentclass[sigconf]{acmart}) in your latex file. Submissions to GeoHealth are single-blind – i.e., the names and affiliations of the authors should be listed in the submitted version.
+</p>
+
+<h2>Contact</h2>
+Please contact geohealth26@easychair.org if you have questions about GeoHealth 2026.
+"
 
     keywords: ["Geospatial Analytics for Infectious Disease Surveillance",
               "Environmental Exposure Mapping (e.g., air quality, water, toxins)",
